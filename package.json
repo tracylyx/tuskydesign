@@ -6,11 +6,19 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "graph": "npx nx graph --force=@tuskdesign/zoo"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@nx/js": "^20.0.9",
+    "@swc-node/register": "~1.9.1",
+    "@swc/core": "~1.5.7",
+    "@swc/helpers": "~0.5.11",
+    "@types/node": "18.16.9",
+    "nx": "20.0.9",
     "tslib": "^2.8.0",
     "typescript": "~5.5.2"
   },
